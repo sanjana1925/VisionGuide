@@ -3,8 +3,6 @@
 # 👁️ VisionGuide
 ### AI Assistant for the Visually Impaired
 
-Real-time computer vision assistant that helps visually impaired users navigate their surroundings.
-
 </div>
 
 <br>
