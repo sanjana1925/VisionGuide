@@ -19,7 +19,8 @@
 <div align="center">
 
 ## 🏗️ Architecture
-<br>
+---
+
 ![VisionGuide Architecture](/VisionGuide_architecture_Diagram.svg)
 
 *Each webcam frame runs through YOLOv5 (object detection) and a Places365-trained ResNet18 (scene recognition) in parallel, feeds distance estimates and scene labels into a cooldown-limited speech queue, and outputs both a live annotated video overlay and spoken audio via pyttsx3.*
