@@ -17,7 +17,6 @@
 
 ---
 
-<br>
 
 <div align="center">
 
