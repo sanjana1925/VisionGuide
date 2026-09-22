@@ -1,8 +1,6 @@
 <div align="center">
 
-# 👁️ VisionGuide
-### AI Assistant for the Visually Impaired
-
+# 👁️ VisionGuide - AI Assistant for the Visually Impaired
 </div>
 
 <br>
@@ -13,15 +11,15 @@
 - 🔊 **Voice Feedback** — speaks detections aloud with a cooldown, so it never spams the same object
 - 🖥️ **Live Visual Overlay** — draws bounding boxes, distances, and scene labels on the video feed
 
-<br>
+
 
 ---
 
-
+<br>
 <div align="center">
 
 ## 🏗️ Architecture
-
+<br>
 ![VisionGuide Architecture](/VisionGuide_architecture_Diagram.svg)
 
 *Each webcam frame runs through YOLOv5 (object detection) and a Places365-trained ResNet18 (scene recognition) in parallel, feeds distance estimates and scene labels into a cooldown-limited speech queue, and outputs both a live annotated video overlay and spoken audio via pyttsx3.*
