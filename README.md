@@ -1,18 +1,18 @@
-# 👁️ VisionGuide - AI Assistant for the Visually Impaired
+# 👁️ VisionGuide
 
-VisionGuide is a real-time computer vision assistant that helps visually impaired users navigate their surroundings. 
+It is a real-time computer vision assistant that helps visually impaired users navigate their surroundings. 
 
-## ✨ Key Features
+## Key Features
 
-| Feature | Description | Tech Used |
-|---------|-------------|-----------|
-| **🎯 Real-time Object Detection** | Identifies people and objects in the live camera feed | YOLOv5 |
-| **📏 Distance Estimation** | Estimates how far each detected object is, in meters | Pinhole camera approximation |
-| **🏞️ Scene Recognition** | Classifies the surrounding environment into 365 scene categories | ResNet18 (Places365) |
-| **🔊 Voice Feedback** | Speaks detected objects and distances aloud, with cooldown to avoid spam | pyttsx3 (Text-to-Speech) |
-| **🖥️ Live Visual Overlay** | Displays bounding boxes, distances, and scene labels on the video feed | OpenCV |
+| Feature | Description |
+|---------|-------------|
+| **🎯 Real-time Object Detection** | Identifies people and objects in the live camera feed |
+| **📏 Distance Estimation** | Estimates how far each detected object is, in meters |
+| **🏞️ Scene Recognition** | Classifies the surrounding environment into 365 scene categories |
+| **🔊 Voice Feedback** | Speaks detected objects and distances aloud, with cooldown to avoid spam |
+| **🖥️ Live Visual Overlay** | Displays bounding boxes, distances, and scene labels on the video feed |
 
-<br>
+<br><br>
 
 ![VisionGuide Architecture](/VisionGuide_architecture_Diagram.svg)
 
